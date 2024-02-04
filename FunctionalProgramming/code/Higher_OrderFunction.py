@@ -48,6 +48,26 @@ print(chartoint('12345'))
 
 
 
+
+def fib(max):
+    Ls = []
+    def getfib(L):
+        L.append(1)
+        index = len(L) - 1
+        while(index > 1):
+            index -= 1
+            L[index] = L[index] + L[index - 1]
+    i = 1
+    while i <= max:
+        i += 1
+        getfib(Ls)
+        yield Ls
+
+g = fib(10)
+for n in g:
+    print(n)
+
+
 # 练习
 # 1. 将首字母大写，其他小写
 def normalize(name):
@@ -89,38 +109,48 @@ print(l)
 # 构造一个从3开始的奇数序列
 def _odd_iter():
     n = 1
-    while True:
+    while n < 1000:
         n = n + 2
         yield n
 
 def primes():
-    yield 2
+    # yield 2
     it = _odd_iter()
     while True:
         n = next(it)
-        it = filter(lambda x: x % n > 0, it)
+        it = filter(lambda x, n = n: x % n > 0, it)
         yield n
 
 index = 0
 it = primes()
-while index < 10:
+while index < 20:
     index += 1
     print(next(it))
 
-def fib(max):
-    Ls = []
-    def getfib(L):
-        L.append(1)
-        index = len(L) - 1
-        while(index > 1):
-            index -= 1
-            L[index] = L[index] + L[index - 1]
-    i = 1;
-    while i <= max:
-        i += 1
-        getfib(Ls)
-        yield Ls
 
-g = fib(10)
-for n in g:
-    print(n)
+# 筛出回数
+def is_palindrome(n):
+    str_n = str(n)
+    return str_n == str_n[::-1]
+    pass
+
+print(is_palindrome(12321))
+
+l = filter(lambda x: x % 2 == 0, (1,2,3,4,5))
+print(list(l))
+
+
+
+# sorted
+# 排序
+print(sorted(['bob', 'about', 'Zoo', 'Credit']))
+print(sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower))
+print(sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True))
+
+L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
+def by_name(t):
+    return t[0]
+    pass
+L2 = sorted(L, key=by_name)
+print(L2)
+
