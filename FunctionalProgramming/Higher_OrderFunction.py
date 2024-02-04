@@ -14,7 +14,6 @@ def add_abs(x, y, fabs):
 
 print(add_abs(-12, 12, abs))
 
-<<<<<<< HEAD
 
 
 # map
@@ -107,7 +106,7 @@ it = primes()
 while index < 10:
     index += 1
     print(next(it))
-=======
+
 def fib(max):
     Ls = []
     def getfib(L):
@@ -125,4 +124,3 @@ def fib(max):
 g = fib(10)
 for n in g:
     print(n)
->>>>>>> 52aa8f3 (pull on mac)
