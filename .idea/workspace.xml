@@ -5,28 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7adc1459-511a-4d71-8dc2-69756fe86465" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learnPython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/MD/AccessRestriction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/MD/InheritanceAndPolymorphism.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/MD/Object.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/MD/classAndInstance.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/MD/instanceAttrAndClassAttr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/code/AccessRestricion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/code/InheritanceAndPolymorphism.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/code/classAndInstance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/code/instanceAttrAndClassAttr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module/code/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/code/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/CustomizationOfClass.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/EnumClass.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/MultipleInheritance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/Use@property.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/Use__slots__.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/MultipleInheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/Use@property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/Use__slots__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/MD/InheritanceAndPolymorphism.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/MD/InheritanceAndPolymorphism.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/code/AccessRestricion.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/code/AccessRestricion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,10 +48,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/杨康"
+    "last_opened_file_path": "F:/learnPython"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.instanceAttrAndClassAttr">
+  <component name="RunManager" selected="Python.MetaClass">
     <configuration name="AccessRestricion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="InheritanceAndPolymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomizationOfClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/code/InheritanceAndPolymorphism.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/CustomizationOfClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="classAndInstance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="EnumClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/code/classAndInstance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/EnumClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="instanceAttrAndClassAttr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MetaClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/code/instanceAttrAndClassAttr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MultipleInheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module/code/module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/MultipleInheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.instanceAttrAndClassAttr" />
-        <item itemvalue="Python.InheritanceAndPolymorphism" />
+        <item itemvalue="Python.MetaClass" />
+        <item itemvalue="Python.EnumClass" />
+        <item itemvalue="Python.CustomizationOfClass" />
+        <item itemvalue="Python.MultipleInheritance" />
         <item itemvalue="Python.AccessRestricion" />
-        <item itemvalue="Python.classAndInstance" />
-        <item itemvalue="Python.module" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +188,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/code/AccessRestricion.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

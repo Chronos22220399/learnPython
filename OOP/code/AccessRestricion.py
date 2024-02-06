@@ -28,7 +28,7 @@ class Student(object):
         self.__gender = gender
 
     def get_gender(self):
-        if self.__gender not in ['male', 'female']
+        if self.__gender not in ['male', 'female']:
             raise ValueError("value Error：")
         else:
             return self.__gender
@@ -37,7 +37,7 @@ class Student(object):
         return self.__name
 
     def set_gender(self, gender='male'):
-        if gender not in ['male', 'female']
+        if gender not in ['male', 'female']:
             raise ValueError("value Error in func: set_gender")
         else:
             self.__gender = gender
