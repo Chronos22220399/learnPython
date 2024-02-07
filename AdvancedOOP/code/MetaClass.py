@@ -1,54 +1,56 @@
 
-# Filed类，用于保存数据库表的字段名和字段类型
+# 保存数据库表的字段名和字段类型
 class Field(object):
-
     def __init__(self, name, column_type):
-        self.name = name
-        self.colunm_type = column_type
+        self._name = name
+        self._column_type = column_type
 
     def __str__(self):
-        return '<%s:%s>' %(self.__class__.__name__, self.__class__.__name__)
-    pass
+        return '<%s : %s>' % (self.__class__.__name__, self._name)
 
 
+# 在Field的基础上定义其他字段类型
+# 字符串字段
 class StringField(Field):
     def __init__(self, name):
-        super(StringField, self).__init__(name, 'varchar(100)')
-    pass
+        super().__init__(name, 'varchar(100)')
 
+
+# 整形字段
 class IntegerField(Field):
     def __init__(self, name):
-        super(IntegerField, self).__init__(name, 'bigint')
-    pass
+        super().__init__(name, 'bigint')
 
 
+# 编写元类
 class ModelMetaclass(type):
     def __new__(cls, name, bases, attrs):
         if name == 'Model':
             return type.__new__(cls, name, bases, attrs)
-        print("Found model: %s" %name)
+
+        print('Found Model: %s' % name)
+
         mappings = dict()
+
+        # 建立映射关系
         for k, v in attrs.items():
             if isinstance(v, Field):
-                print("Found mapping: %s ==> %s" %(k, v))
+                print('Found mapping: %s ==> %s' % (k, v))
                 mappings[k] = v
 
         for k in mappings.keys():
             attrs.pop(k)
 
-        # 保存属性和列的映射关系
         attrs['__mappings__'] = mappings
-        # 假设表名和类名一直
         attrs['__table__'] = name
 
         return type.__new__(cls, name, bases, attrs)
 
 
-
+# 编写基类Model
 class Model(dict, metaclass=ModelMetaclass):
-
     def __init__(self, **kw):
-        super(Model, self).__init__(**kw)
+        super().__init__(**kw)
 
     def __getattr__(self, key):
         try:
@@ -64,13 +66,13 @@ class Model(dict, metaclass=ModelMetaclass):
         params = []
         args = []
         for k, v in self.__mappings__.items():
-            fields.append(v.name)
+            fields.append(v._name)
             params.append('?')
             args.append(getattr(self, k, None))
-        sql = 'insert into %s (%s) values (%s)' % (self.__table__, ','.join(fields), ','.join(params))
+
+        sql = 'insert into %s (%s) values (%s)' % (self.__table__, ', '.join(fields), ', '.join(params))
         print('SQL: %s' % sql)
         print('ARGS: %s' % str(args))
-
 
 
 class User(Model):
@@ -79,10 +81,11 @@ class User(Model):
     name = StringField('username')
     email = StringField('email')
     password = StringField('password')
+    pass
 
-# 创建一个实例：
-u = User(id=12345, name='Michael', email='test@orm.org', password='my-pwd')
-# 保存到数据库：
+
+# 因为继承了dict，所以u本身保存了这些信息，而User类里的属性只是用来创建映射的
+u = User(ip='12345', name='Ess Chronos', password='my-pwd', email='Ess.ink')
+
 u.save()
-
-
+print(u)

@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7adc1459-511a-4d71-8dc2-69756fe86465" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/CustomizationOfClass.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/EnumClass.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/MultipleInheritance.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/Use@property.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/MD/Use__slots__.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/MultipleInheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/Use@property.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedOOP/code/Use__slots__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/MD/Debug.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/MD/ErrorHanding.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/Debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/Doctest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/ErrorHanding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/UnitTesting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/MD/InheritanceAndPolymorphism.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/MD/InheritanceAndPolymorphism.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/code/AccessRestricion.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/code/AccessRestricion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2bwAcb8tm8i3yfImKbIJTbisziT" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -48,11 +47,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/learnPython"
+    "last_opened_file_path": "F:/learnPython",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.MetaClass">
-    <configuration name="AccessRestricion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python 测试.Doctests (Doctest 内)">
+    <configuration name="Debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/code/AccessRestricion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/Debug.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CustomizationOfClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/CustomizationOfClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/Doctest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EnumClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ErrorHanding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/EnumClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/ErrorHanding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MetaClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTesting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/UnitTesting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,34 +136,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MultipleInheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests (Doctest 内)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedOOP/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedOOP/code/MultipleInheritance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/Doctest.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MetaClass" />
-        <item itemvalue="Python.EnumClass" />
-        <item itemvalue="Python.CustomizationOfClass" />
-        <item itemvalue="Python.MultipleInheritance" />
-        <item itemvalue="Python.AccessRestricion" />
+        <item itemvalue="Python 测试.Doctests (Doctest 内)" />
+        <item itemvalue="Python.Doctest" />
+        <item itemvalue="Python.UnitTesting" />
+        <item itemvalue="Python.Debug" />
+        <item itemvalue="Python.ErrorHanding" />
       </list>
     </recent_temporary>
   </component>
