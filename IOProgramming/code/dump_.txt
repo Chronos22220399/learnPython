@@ -1,0 +1,2 @@
+{"name": "iris", "age": 20, "score": 88}
+{"__name__": "Ess", "__age__": 20, "__score__": 100}

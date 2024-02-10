@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7adc1459-511a-4d71-8dc2-69756fe86465" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/MD/Debug.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/MD/ErrorHanding.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/Debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/Doctest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/ErrorHanding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/UnitTesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOProgramming/MD/readAndwriteFile.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOProgramming/code/StringIOAndByteIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOProgramming/code/fileAnddirOp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOProgramming/code/readAndwriteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessAndThread/MD/multiProcessing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessAndThread/code/multiProcessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessAndThread/code/multyThreading.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedOOP/code/MetaClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error_DebugAndTest/code/UnitTesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Error_DebugAndTest/code/UnitTesting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/IOProgramming/code/readAndwriteFile.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,12 +52,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "F:/learnPython",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python 测试.Doctests (Doctest 内)">
-    <configuration name="Debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\learnPython\IOProgramming\code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.multyThreading">
+    <configuration name="StringIOAndByteIO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IOProgramming/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/Debug.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IOProgramming/code/StringIOAndByteIO.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fileAnddirOp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IOProgramming/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/Doctest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IOProgramming/code/fileAnddirOp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ErrorHanding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiProcessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProcessAndThread/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/ErrorHanding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProcessAndThread/code/multiProcessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UnitTesting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multyThreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProcessAndThread/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/UnitTesting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProcessAndThread/code/multyThreading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,31 +147,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests (Doctest 内)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="readAndwriteFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_DebugAndTest/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IOProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_DebugAndTest/code/Doctest.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="F:\learnPython\IOProgramming\code\readAndwriteFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.Doctests (Doctest 内)" />
-        <item itemvalue="Python.Doctest" />
-        <item itemvalue="Python.UnitTesting" />
-        <item itemvalue="Python.Debug" />
-        <item itemvalue="Python.ErrorHanding" />
+        <item itemvalue="Python.multyThreading" />
+        <item itemvalue="Python.multiProcessing" />
+        <item itemvalue="Python.fileAnddirOp" />
+        <item itemvalue="Python.StringIOAndByteIO" />
+        <item itemvalue="Python.readAndwriteFile" />
       </list>
     </recent_temporary>
   </component>
